@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: #1c1c1c;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00ff00;
+}
+
+.badge {
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.result {
+    margin-bottom: 30px;
+}
+
+.result p {
+    font-size: 1.5rem;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.choice {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+.choice:hover {
+    transform: scale(1.2);
+}
+
+.choice img {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0 0 10px #00ffff);
+}
+
+#result-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
